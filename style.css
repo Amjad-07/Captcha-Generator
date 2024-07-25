@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.captcha-container{
+    background-color: white;
+    color: black;
+    padding: 40px;
+    border-radius: 15px;
+    position: relative;
+
+
+
+
+}
+#non-input{
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px rgb(200, 196, 196) solid;
+
+
+
+}
+.captcha-text button{
+    color: white;
+    background-color:blueviolet;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+
+
+
+}
+.our-div{
+    margin-top: 10px;
+    padding-bottom: 5px;
+
+    
+}
+.our-input{
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px rgb(200, 196, 196) solid;
+    text-align: left;
+
+}
+.our-div button{
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+
+  
+
+}
+.our-div button:hover{
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+
+
+
+}
+.captcha-text button:hover{
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    background-color: white;
+    color: black;
+    padding: 5px;
+
+
+}
+.result{
+    color: green;
+    margin-top: 8px;
+    
+}
+h2{
+    margin-bottom: 20px;
+    color: blueviolet;
+}
